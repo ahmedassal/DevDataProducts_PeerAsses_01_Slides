@@ -1,0 +1,48 @@
+Car Performance Predictor
+========================================================
+### Developing Data Products Project
+author: Ahmed Assal  
+date:   12-21-2014
+
+The application - the prediction tab
+========================================================
+The main tab where you input the vehicle data and get your prediction.
+![Application Screenshot - Tab 1](DevDataProducts_PeerAsses_01_Slides-figure/ProductCapture00.png)
+
+
+
+The application - the plot tab
+========================================================
+This tab displays a plot of the model.
+
+![Application Screenshot - Tab 2](DevDataProducts_PeerAsses_01_Slides-figure/ProductCapture01.png)
+
+
+Instructions
+========================================================
+
+The required steps are as follows:
+- Please choose wether your want to predict the vehicle horsepower based on the vehicle number of cylinders or the displacement volume.
+- Accordingly choose the number of the vehicle cylinders or enter the vehicle displacement in cubic inches.
+
+![Input Fields](DevDataProducts_PeerAsses_01_Slides-figure/InputCapture00.png) 
+
+The results
+========================================================
+The results tab displays your selection and echos your input in addition to the prediction itself of the vehicle horsepower.
+
+![The Results](DevDataProducts_PeerAsses_01_Slides-figure/OutputCapture00.png)
+
+
+
+Dataset for the prediction model
+========================================================
+The dataset used is the mtcars
+```{r}
+summary(mtcars)
+```
+Plot for the mtcars
+========================================================
+```{r, echo=FALSE}
+plot(mtcars)
+```
