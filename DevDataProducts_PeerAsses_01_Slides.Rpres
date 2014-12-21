@@ -1,8 +1,17 @@
 Car Performance Predictor
 ========================================================
+font-family: 'Helvetica'
+font-import: http://fonts.googleapis.com/css?family=Risque   
+
+
 ### Developing Data Products Project
 author: Ahmed Assal  
-date:   12-21-2014
+date:   12-21-2014  
+    
+
+
+
+This application predicts the performance of your vehicle based on the vehicle number of cylinders or the volume of displacement.
 
 The application - the prediction tab
 ========================================================
@@ -13,6 +22,7 @@ The main tab where you input the vehicle data and get your prediction.
 
 The application - the plot tab
 ========================================================
+transition: linear  
 This tab displays a plot of the model.
 
 ![Application Screenshot - Tab 2](DevDataProducts_PeerAsses_01_Slides-figure/ProductCapture01.png)
@@ -23,7 +33,10 @@ Instructions
 
 The required steps are as follows:
 - Please choose wether your want to predict the vehicle horsepower based on the vehicle number of cylinders or the displacement volume.
+
 - Accordingly choose the number of the vehicle cylinders or enter the vehicle displacement in cubic inches.
+
+***
 
 ![Input Fields](DevDataProducts_PeerAsses_01_Slides-figure/InputCapture00.png) 
 ![The Results](DevDataProducts_PeerAsses_01_Slides-figure/OutputCapture00.png)
