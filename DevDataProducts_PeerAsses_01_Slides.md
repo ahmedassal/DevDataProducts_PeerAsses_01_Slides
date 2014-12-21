@@ -26,14 +26,7 @@ The required steps are as follows:
 - Accordingly choose the number of the vehicle cylinders or enter the vehicle displacement in cubic inches.
 
 ![Input Fields](DevDataProducts_PeerAsses_01_Slides-figure/InputCapture00.png) 
-
-The results
-========================================================
-The results tab displays your selection and echos your input in addition to the prediction itself of the vehicle horsepower.
-
 ![The Results](DevDataProducts_PeerAsses_01_Slides-figure/OutputCapture00.png)
-
-
 
 Dataset for the prediction model
 ========================================================
@@ -66,6 +59,3 @@ summary(mtcars)
  3rd Qu.:1.0000   3rd Qu.:4.000   3rd Qu.:4.000  
  Max.   :1.0000   Max.   :5.000   Max.   :8.000  
 ```
-Plot for the mtcars
-========================================================
-![plot of chunk unnamed-chunk-2](DevDataProducts_PeerAsses_01_Slides-figure/unnamed-chunk-2-1.png) 

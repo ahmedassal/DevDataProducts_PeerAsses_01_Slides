@@ -26,23 +26,11 @@ The required steps are as follows:
 - Accordingly choose the number of the vehicle cylinders or enter the vehicle displacement in cubic inches.
 
 ![Input Fields](DevDataProducts_PeerAsses_01_Slides-figure/InputCapture00.png) 
-
-The results
-========================================================
-The results tab displays your selection and echos your input in addition to the prediction itself of the vehicle horsepower.
-
 ![The Results](DevDataProducts_PeerAsses_01_Slides-figure/OutputCapture00.png)
-
-
 
 Dataset for the prediction model
 ========================================================
 The dataset used is the mtcars
 ```{r}
 summary(mtcars)
-```
-Plot for the mtcars
-========================================================
-```{r, echo=FALSE}
-plot(mtcars)
 ```
